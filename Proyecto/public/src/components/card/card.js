@@ -81,6 +81,8 @@ class CardItem extends HTMLElement {
                 </div>
             </div>
         </section>
+
+        <banner-products></banner-products>
         `
         const banner = document.createElement('featured-section');
         banner.append()

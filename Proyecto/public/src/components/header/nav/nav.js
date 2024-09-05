@@ -31,7 +31,6 @@ class AppNav extends HTMLElement {
                     <li><a>MORE</a></li>
                 </ul>
                 <div class="icons">
-
                 </div>
             </nav>
         `

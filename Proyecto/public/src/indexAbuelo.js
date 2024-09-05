@@ -1,5 +1,4 @@
 import * as components from './components/indexPadre.js'
-
 class App extends HTMLElement {
 	constructor() {
 		super();
