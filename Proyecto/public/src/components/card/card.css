@@ -1,0 +1,50 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: white;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-bottom: 55px;
+}
+
+.content .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+}
+
+.card img {
+    width: 60%;
+    object-fit: cover;
+
+}
+
+.card h5 {
+    color: grey;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: -7px;
+}
+
+.card h2 {
+    width: 100%;
+}
+
+.card-text 
+
+.card p {
+    margin: 200px;
+}
+
+.card .card-text p a {
+    color: red;
+}
+

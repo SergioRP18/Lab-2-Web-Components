@@ -1,0 +1,58 @@
+export const dataCards = [
+    {
+        tittle: "Marvel's 85th Anniversary: Marvel Comics Through the Decades",
+        type: "COMICS",
+        day: "1 DAY AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://images.thedirect.com/media/article_full/marvel-movie-releases-2024-slate.jpg',
+    },
+    {
+        tittle: "'Deadpool' #7 First Look Debuts the New Deadpool",
+        type: "COMICS",
+        day: "1 DAY AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkvSNBDGEG9JcMv5kxyLDhN9kVgD4mGbYy8Hs626srLBKmLkMsX8JyY8A0B9Ivu1r7sOc&usqp=CAU',
+    },
+    {
+        tittle: "An Exclusive First Look Into 'Marvel Studios' Deadpool & Wolverine: The Art of the Movie'",
+        type: "CULTURE & LIFESTYLE",
+        day: "1 DAY AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJR2G8PfwmE407rLusUr12ed6GvjzlXo98icZ6DewKtHYB1uPN7JE4TmhE8O-_i4GVB_E&usqp=CAU',
+    },
+    {
+        tittle: "Celebrate the Art of the Marvel Cinematic Universe with New Marvel Studios Variant Covers by Ryan Meinerding",
+        type: "COMICS",
+        day: "2 DAYS AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9osGAlTlf8zThMPXfCHLW8-OIjO4Tq1i1dFl3vu6nxbAmO5QM4QSfzQrQNccxJSgilyY&usqp=CAU',
+    },
+    {
+        tittle: "The Final Battle of the Galactic Civil War is Told Across Three New 'Star Wars' Comic Series",
+        type: "COMICS",
+        day: "2 DAYS AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://images.thedirect.com/media/article_full/mcu-phase-6.jpg',
+    },
+    {
+        tittle: "Meet Laura Kinney, the Torchbearer of Wolverine's Legacy",
+        type: "COMICS",
+        day: "2 DAYS AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://images.thedirect.com/media/article_full/marvel-upcoming-movies-shows.jpg',
+    },
+    {
+        tittle: "Shop Marvel Must Haves: Celebrating 85 Years of Marvel",
+        type: "GEAR",
+        day: "2 DAYS AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe653mFteSUpxsHgVZ1sZYeieVGMLT1skVAZWMLL-th8Uh5WN4EEb3in8ppIRTiIWifWc&usqp=CAU',
+    },
+    {
+        tittle: "Tony Stark Rebuilds His Legacy in Philip Tan's 'Iron Man' #1 Foil Cover",
+        type: "COMICS",
+        day: "3 DAYS AGO",
+        information: "Earn Points, Get Rewards",
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGHAuhs2Of5PaSMM5Gm8KWdtVVRG49txdCm5Yi7PhzmlQs6zMpNXLOX0rAeqSpC2YkFM&usqp=CAU',
+    },
+];

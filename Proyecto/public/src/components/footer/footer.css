@@ -1,0 +1,134 @@
+/* Reset básico para márgenes y rellenos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos generales del footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  /* Contenedor principal del footer */
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo para el logo del footer */
+  .logo-footer img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Estilo para los enlaces en la sección de enlaces */
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la sección de promoción */
+  .footer-promotion {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .image-promotion img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .info-promotion {
+    text-align: left;
+  }
+  
+  .info-promotion h4 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .info-promotion p {
+    font-size: 14px;
+  }
+  
+  /* Estilos para los íconos sociales en 4 columnas */
+  .social-media {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre íconos */
+    width: 100%; /* Asegura que la sección ocupe todo el ancho disponible */
+    max-width: 300px; /* Ajusta el tamaño máximo si es necesario */
+  }
+  
+  .social-media h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    grid-column: span 4; /* El título ocupa las 4 columnas */
+  }
+  
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: contents; /* Permite que los elementos de la lista se comporten como elementos directos de la cuadrícula */
+  }
+  
+  .social-media ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-media svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+  }
+  
+  /* Estilos para el pie de página final */
+  footer p {
+    margin: 10px 0;
+    font-size: 12px;
+  }
+  
+  footer nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
