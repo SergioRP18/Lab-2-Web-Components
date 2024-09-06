@@ -1,4 +1,7 @@
 class BannerProducts extends HTMLElement {
+    static get observedAttributes(){
+        return ['img','logo', 'alt', 'tittle', 'type', 'description', 'txtbutton']
+    }
     constructor(){
         super();
         this.attachShadow({mode:'open'});
@@ -6,19 +9,25 @@ class BannerProducts extends HTMLElement {
     connectedCallback(){
         this.render();
     }
+    attributeChangedCallback(propName, OldValue, newValue){
+        if(OldValue !== newValue) {
+            this[propName] = newValue;
+            this.render();
+        }
+    }
     render(){
         this.shadowRoot.innerHTML = `
             <link rel="stylesheet" href="./src/components/featured/bannerProducts/bannerProducts.css">
-
+            
             <div class="banner">
-                <img src="./src/assets/image 14.png" alt="Marvel Banner">
+                <img src=${this.img} alt=${this.alt}>
                 <div class="banner-text">
-                    <img src="https://cdn.marvel.com/content/u/open-html-assets/unlimited-sellpage/mu-logo-full-light.69458f73.png" alt="logo unlimited">
-                    <h4>AVALIBLE NOW</h4>
-                    <h1>NEW ON MARVEL UNLIMITED</h1>
-                    <p>Explore the epic world of Marvel heroes and adventures. Dive into comics, movies, and more!</p>
+                    <img src="${this.logo||undefined}" alt="${this.alt ||undefined}">
+                    <h4>${this.type}</h4>
+                    <h1>${this.tittle}</h1>
+                    <p>${this.description}</p>
                     <div class="buttons">
-                    <button id="get">GET MARVEL UNLIMITED</button>
+                    <button id="get">${this.txtbutton}</button>
                     </div>
                 </div>
             </div>
