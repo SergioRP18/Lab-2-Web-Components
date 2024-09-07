@@ -31,7 +31,6 @@ class BannerProducts extends HTMLElement {
                     </div>
                 </div>
             </div>
-            <product-card></product-card>
         `
     }
 };

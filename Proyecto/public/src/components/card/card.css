@@ -21,6 +21,10 @@
     width: 100%;
 }
 
+.content h1 {
+    margin-left: 50px;
+}
+
 .card img {
     width: 60%;
     object-fit: cover;

@@ -13,7 +13,6 @@ class AsideContent extends HTMLElement {
             <link rel="stylesheet" href="./src/components/aside/aside.css">
                 <h2>The Hype Box</h2>
                 <p>Can’t-miss news and updates from across the Marvel Universe!</p>
-
         `;
     }
 };
